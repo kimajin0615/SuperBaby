@@ -56,14 +56,14 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\XLua\Src\Editor\Hotfix.cs" />
     <Compile Include="Assets\Scripts\Scripts\Editor\LuaMenuItem.cs" />
     <Compile Include="Assets\Scripts\Scripts\Editor\LuaImporter.cs" />
-    <Compile Include="Assets\XLua\Src\Editor\Generator.cs" />
-    <Compile Include="Assets\XLua\Src\Editor\Report.cs" />
     <Compile Include="Assets\XLua\Src\Editor\LinkXmlGen\LinkXmlGen.cs" />
+    <Compile Include="Assets\XLua\Src\Editor\Report.cs" />
     <Compile Include="Assets\XLua\Src\Editor\TemplateRef.cs" />
-    <Compile Include="Assets\XLua\Src\Editor\Hotfix.cs" />
     <Compile Include="Assets\XLua\Editor\ExampleConfig.cs" />
+    <Compile Include="Assets\XLua\Src\Editor\Generator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\XLua\Src\Editor\Template\LuaInterfaceBridge.tpl.txt" />
