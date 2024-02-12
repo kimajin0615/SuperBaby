@@ -353,6 +353,7 @@
 "Assets/Scripts/Scripts/Dialogue/TextButton.cs"
 "Assets/Scripts/Scripts/Dialogue/UIUtility.cs"
 "Assets/Scripts/Scripts/LuaExample/LuaRunner.cs"
+"Assets/Scripts/Yoon/Testtest.cs"
 "Assets/XLua/Gen/CarBridge.cs"
 "Assets/XLua/Gen/DelegatesGensBridge.cs"
 "Assets/XLua/Gen/EnumWrap.cs"
