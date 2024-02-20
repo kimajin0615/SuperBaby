@@ -82,7 +82,9 @@
     <Compile Include="Assets\XLua\Src\RawObject.cs" />
     <Compile Include="Assets\XLua\Src\TemplateEngine\TemplateEngine.cs" />
     <Compile Include="Assets\XLua\Gen\XLuaGenAutoRegister.cs" />
+    <Compile Include="Assets\Scripts\Kim\DataManager.cs" />
     <Compile Include="Assets\XLua\Src\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\Kim\GameData.cs" />
     <Compile Include="Assets\Scripts\Kim\Test.cs" />
     <Compile Include="Assets\XLua\Src\LuaBase.cs" />
     <Compile Include="Assets\XLua\Src\GenAttributes.cs" />
@@ -99,8 +101,22 @@
     <Compile Include="Assets\XLua\Src\StaticLuaCallbacks.cs" />
     <Compile Include="Assets\Scripts\Scripts\Dialogue\UIUtility.cs" />
     <Compile Include="Assets\XLua\Gen\PackUnpack.cs" />
-    <Compile Include="Assets\Scripts\Kim\GameData.cs" />
-    <Compile Include="Assets\Scripts\Kim\DataManager.cs" />
+    <Compile Include="Assets\Scripts\Hu\Move.cs" />
+    <Compile Include="Assets\Scripts\Hu\ShopBtnActive.cs" />
+    <Compile Include="Assets\Scripts\Hu\ItemDatabase.cs" />
+    <Compile Include="Assets\Scripts\Hu\Item.cs" />
+    <Compile Include="Assets\Scripts\Hu\CostumeShopDB.cs" />
+    <Compile Include="Assets\Scripts\Hu\ShopSystem.cs" />
+    <Compile Include="Assets\Scripts\Hu\ShowWindow.cs" />
+    <Compile Include="Assets\Scripts\Hu\CameraMove.cs" />
+    <Compile Include="Assets\Scripts\Hu\Gold.cs" />
+    <Compile Include="Assets\Scripts\Hu\SelectItem.cs" />
+    <Compile Include="Assets\Scripts\Hu\MinigameBtnActive.cs" />
+    <Compile Include="Assets\Scripts\Hu\minigame.cs" />
+    <Compile Include="Assets\Scripts\Hu\DialogBtnActive.cs" />
+    <Compile Include="Assets\Scripts\Kim\DialogLoader.cs" />
+    <Compile Include="Assets\Scripts\Hu\MapChanger.cs" />
+    <Compile Include="Assets\Scripts\Hu\Mapmanager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\XLua\Resources\xlua\util.lua.txt" />
