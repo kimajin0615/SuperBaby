@@ -11,10 +11,12 @@ public class GameData
     public int month;
     public bool gender; //0 = man, 1 = woman
 
-    public Dictionary<string, bool> condition = new Dictionary<string, bool>()
-    {
+    public int gold;
 
-    };
+    //public Dictionary<string, bool> condition = new Dictionary<string, bool>()
+    //{
+    //    { }
+    //};
 
     // ===== player status =====
     public int stress = Math.Clamp(10, 0, 999);                 // 스트레스
