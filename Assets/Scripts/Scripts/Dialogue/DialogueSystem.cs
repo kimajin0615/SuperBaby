@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace DialogueSystem
 { 
@@ -80,8 +81,34 @@ namespace DialogueSystem
     }
 
 
+    //============================================
+    //public interface ITalkLine
+    //{
+    //    void OnExecute(DialogueMachine pMachine);
+    //}
 
+    //Lua에서 C# 스크립트 속 변수 값 바꾸기
+    public class LikeGaugeLine : IDialogueLine
+    {
+        private DataManager dataManager = GameObject.FindObjectOfType<DataManager>();
 
+        private string m_name;
+        private int m_value;
+
+        public LikeGaugeLine(string name, int value)
+        {
+            m_name = name;
+            m_value = value;
+        }
+
+        public void OnExecute(DialogueMachine pMachine)
+        {
+            Debug.Log("LikeGaugeLine");
+            dataManager.PlusLikeGauge(m_name, m_value);
+            pMachine.Output.DoPrint(pMachine.NextLine);
+        }
+    }
+    //=============================================
 
 
 
