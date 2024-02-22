@@ -8,6 +8,7 @@ public class Behavior : ScriptableObject
 {
     public int type;
     public Sprite icon;
+    public string englishName;
     public string name;
     public int cost;
     public int unlockAge;

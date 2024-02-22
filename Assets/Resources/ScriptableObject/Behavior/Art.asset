@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   icon: {fileID: 0}
+  englishName: Art
   name: "\uBBF8\uC220"
   cost: 60000
   unlockAge: 0

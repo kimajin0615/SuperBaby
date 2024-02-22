@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 1
   icon: {fileID: 0}
+  englishName: Saiki
   name: "\uC0ACX\uD0A4 \uD749\uB0B4"
   cost: 0
   unlockAge: 5

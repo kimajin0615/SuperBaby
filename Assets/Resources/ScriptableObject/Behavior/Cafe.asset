@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   icon: {fileID: 0}
+  englishName: Cafe
   name: "\uCE74\uD398"
   cost: 276080
   unlockAge: 16

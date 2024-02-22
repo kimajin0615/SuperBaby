@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Kim\NotebookController.cs" />
     <Compile Include="Assets\XLua\Src\LuaDLL.cs" />
     <Compile Include="Assets\Scripts\Hu\ShowWindow.cs" />
     <Compile Include="Assets\Scripts\Hu\MinigameBtnActive.cs" />
@@ -73,7 +74,7 @@
     <Compile Include="Assets\XLua\Src\TypeExtensions.cs" />
     <Compile Include="Assets\Scripts\Yoon\Testtest.cs" />
     <Compile Include="Assets\Scripts\Scripts\Dialogue\DialogueTester.cs" />
-    <Compile Include="Assets\Scripts\Kim\PlanController.cs" />
+    <Compile Include="Assets\Scripts\Kim\PlanerController.cs" />
     <Compile Include="Assets\Scripts\Hu\ShopBtnActive.cs" />
     <Compile Include="Assets\XLua\Src\CodeEmit.cs" />
     <Compile Include="Assets\XLua\Gen\WrapPusher.cs" />
@@ -105,7 +106,7 @@
     <Compile Include="Assets\XLua\Gen\CarBridge.cs" />
     <Compile Include="Assets\XLua\Src\ObjectTranslator.cs" />
     <Compile Include="Assets\Scripts\Scripts\Dialogue\DialogueSystem.cs" />
-    <Compile Include="Assets\Scripts\Kim\StickyNotes.cs" />
+    <Compile Include="Assets\Scripts\Kim\StickyNote.cs" />
     <Compile Include="Assets\XLua\Src\LuaEnv.cs" />
     <Compile Include="Assets\Scripts\Hu\Gold.cs" />
     <Compile Include="Assets\XLua\Src\DelegateBridge.cs" />
@@ -117,7 +118,7 @@
     <Compile Include="Assets\Scripts\Hu\minigame.cs" />
     <Compile Include="Assets\Scripts\Scripts\Dialogue\UIUtility.cs" />
     <Compile Include="Assets\XLua\Gen\PackUnpack.cs" />
-    <Compile Include="Assets\Scripts\Kim\NotebookController.cs" />
+    <Compile Include="Assets\Scripts\Data\ItemI.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\XLua\Resources\xlua\util.lua.txt" />

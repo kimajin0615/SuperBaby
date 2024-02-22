@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   icon: {fileID: 0}
+  englishName: Babysitter
   name: "\uBCA0\uC774\uBE44\uC2DC\uD130"
   cost: 448200
   unlockAge: 17
