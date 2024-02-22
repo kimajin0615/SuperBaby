@@ -13,7 +13,7 @@ public class Test : MonoBehaviour
         DataManager.Instance.LoadGameData();
 
         dataManager = GameObject.FindObjectOfType<DataManager>();
-        dataManager.PlusLikeGauge("Insia", 10);
+        dataManager.PlusLikeGauge("¿ŒΩ√æ∆", 10);
     }
 
     // Update is called once per frame

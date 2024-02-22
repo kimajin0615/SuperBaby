@@ -81,11 +81,7 @@ namespace DialogueSystem
     }
 
 
-    //============================================
-    //public interface ITalkLine
-    //{
-    //    void OnExecute(DialogueMachine pMachine);
-    //}
+
 
     //Lua에서 C# 스크립트 속 변수 값 바꾸기
     public class LikeGaugeLine : IDialogueLine

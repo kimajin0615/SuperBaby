@@ -13,10 +13,17 @@ public class GameData
 
     public int gold;
 
-    //public Dictionary<string, bool> condition = new Dictionary<string, bool>()
-    //{
-    //    { }
-    //};
+    // ===== player condition =====
+    public Dictionary<string, bool> condition = new Dictionary<string, bool>()
+    {
+        { "보통", true },
+        { "들뜸", false },
+        { "자낮", false },
+        { "나르시시즘", false },
+        { "싸가지", false },
+        { "제어불가", false },
+        { "질병", false },
+    };
 
     // ===== player status =====
     public int stress = Math.Clamp(10, 0, 999);                 // 스트레스
@@ -36,10 +43,10 @@ public class GameData
     // ===== characters LikeGauge =====
     public Dictionary<string, int> chacracters = new Dictionary<string, int>()
     {
-        { "ChaeHyun", 0},
-        { "InSiwoo", 0},
-        { "Insia", 0},
-        { "JeongDabin", 0}
+        { "채현", 0 },
+        { "인시아", 0 },
+        { "인시우", 0 },
+        { "정다빈", 0 }
     };
 
     // ===== other data =====
