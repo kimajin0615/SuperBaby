@@ -15,5 +15,5 @@ MonoBehaviour:
   type: 0
   icon: {fileID: 0}
   name: "\uAD50\uACFC \uD559\uC6D0"
-  cost: 0
+  cost: 100000
   unlockAge: 8

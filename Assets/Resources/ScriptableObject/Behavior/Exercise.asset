@@ -15,5 +15,5 @@ MonoBehaviour:
   type: 1
   icon: {fileID: 0}
   name: "\uBB34\uC220"
-  cost: 0
+  cost: 50000
   unlockAge: 0

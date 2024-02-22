@@ -12,8 +12,8 @@ public class Test : MonoBehaviour
         DialogueManager.Instance.RunDialog("Test");
         DataManager.Instance.LoadGameData();
 
-        dataManager = GameObject.FindObjectOfType<DataManager>();
-        dataManager.PlusLikeGauge("인시아", 10);
+        //dataManager = GameObject.FindObjectOfType<DataManager>();
+        //dataManager.PlusLikeGauge("인시아", 10);
     }
 
     // Update is called once per frame
