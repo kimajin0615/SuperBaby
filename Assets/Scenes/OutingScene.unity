@@ -1341,6 +1341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -1747,6 +1748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -2515,6 +2517,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -2679,6 +2682,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -2831,6 +2835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -3114,6 +3119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -3456,6 +3462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -3772,6 +3779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -4000,6 +4008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -4555,6 +4564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -4752,6 +4762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -4810,6 +4821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -5270,6 +5282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -5422,6 +5435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -6062,6 +6076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -6214,6 +6229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -6460,6 +6476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -7913,7 +7930,6 @@ GameObject:
   - component: {fileID: 1310061501}
   - component: {fileID: 1310061503}
   - component: {fileID: 1310061502}
-  - component: {fileID: 1310061504}
   m_Layer: 5
   m_Name: Gold
   m_TagString: Untagged
@@ -7980,18 +7996,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1310061500}
   m_CullTransparentMesh: 1
---- !u!114 &1310061504
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1310061500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 507aa324707c37c4cb8689624853db28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1327179833
 GameObject:
   m_ObjectHideFlags: 0
@@ -9163,6 +9167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -9391,6 +9396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -11137,6 +11143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -11365,6 +11372,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -11771,6 +11779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dataManager: {fileID: 0}
   ItemData: {fileID: 2041908009}
   ItemName: {fileID: 0}
   infoText: {fileID: 0}
@@ -11806,46 +11815,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemDB:
-  - ItemName: wear1
-    ItemImage: {fileID: 21300000, guid: ddf2e76e8a1f88f46ae1e42277850b48, type: 3}
-    ItemInfo: "\uC6371\uC785\uB2C8\uB2E4"
-    price: 100
-  - ItemName: wear2
-    ItemImage: {fileID: 21300000, guid: ddf2e76e8a1f88f46ae1e42277850b48, type: 3}
-    ItemInfo: "\uC6372\uC785\uB2C8\uB2E4"
-    price: 200
-  - ItemName: wear3
-    ItemImage: {fileID: 21300000, guid: ddf2e76e8a1f88f46ae1e42277850b48, type: 3}
-    ItemInfo: "\uC6373\uC785\uB2C8\uB2E4"
-    price: 300
-  - ItemName: wear4
-    ItemImage: {fileID: 21300000, guid: ddf2e76e8a1f88f46ae1e42277850b48, type: 3}
-    ItemInfo: "\uC6374\uC785\uB2C8\uB2E4"
-    price: 400
-  - ItemName: wear5
-    ItemImage: {fileID: 21300000, guid: ddf2e76e8a1f88f46ae1e42277850b48, type: 3}
-    ItemInfo: "\uC6375\uC785\uB2C8\uB2E4"
-    price: 500
-  - ItemName: wear6
-    ItemImage: {fileID: 21300000, guid: ddf2e76e8a1f88f46ae1e42277850b48, type: 3}
-    ItemInfo: "\uC6376\uC785\uB2C8\uB2E4"
-    price: 600
-  - ItemName: wear7
-    ItemImage: {fileID: 21300000, guid: ddf2e76e8a1f88f46ae1e42277850b48, type: 3}
-    ItemInfo: "\uC6377\uC785\uB2C8\uB2E4"
-    price: 700
-  - ItemName: wear8
-    ItemImage: {fileID: 21300000, guid: ddf2e76e8a1f88f46ae1e42277850b48, type: 3}
-    ItemInfo: "\uC6378\uC785\uB2C8\uB2E4"
-    price: 800
-  - ItemName: wear9
-    ItemImage: {fileID: 21300000, guid: ddf2e76e8a1f88f46ae1e42277850b48, type: 3}
-    ItemInfo: "\uC6379\uC785\uB2C8\uB2E4"
-    price: 900
-  - ItemName: wear10
-    ItemImage: {fileID: 21300000, guid: ddf2e76e8a1f88f46ae1e42277850b48, type: 3}
-    ItemInfo: "\uC6379\uC785\uB2C8\uB2E4"
-    price: 1000
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!4 &2041908011
 Transform:
   m_ObjectHideFlags: 0

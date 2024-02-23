@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   icon: {fileID: 0}
+  englishName: LogisticsCenter
   name: "\uBB3C\uB958\uC13C\uD130"
-  cost: 0
+  cost: 770000
   unlockAge: 17

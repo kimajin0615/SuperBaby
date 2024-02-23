@@ -7,7 +7,8 @@ using UnityEngine.UI;
 public class Behavior : ScriptableObject
 {
     public int type;
-    public Image icon;
+    public Sprite icon;
+    public string englishName;
     public string name;
     public int cost;
     public int unlockAge;

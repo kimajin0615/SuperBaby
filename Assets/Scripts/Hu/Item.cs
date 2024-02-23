@@ -4,15 +4,12 @@ using UnityEngine;
 
 
 [System.Serializable]
-public class Item
+[CreateAssetMenu]
+public class Item : ScriptableObject
 {
     public string ItemName;
     public Sprite ItemImage;
     public string ItemInfo;
     public int price;
 
-    public bool Sell()
-    {
-        return false;
-    }
 }

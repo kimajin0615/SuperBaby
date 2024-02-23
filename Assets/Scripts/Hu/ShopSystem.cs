@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class ShopSystem : MonoBehaviour
 {
+    public DataManager dataManager;
     //public GameObject ShopWindow;
     public GameObject ItemData;
     //public Image image;
@@ -18,8 +19,13 @@ public class ShopSystem : MonoBehaviour
 
     public int ItemIndex;
     
+
+    
+
     void Start()
     {
+        DataManager.Instance.LoadGameData();
+
         Item = ItemData.GetComponent<ItemDatabase>();
 
         ItemName = GameObject.Find("ItemName").GetComponent<Text>();
@@ -43,14 +49,14 @@ public class ShopSystem : MonoBehaviour
     public void Buy()
     {
         Debug.Log(SelectItem.selectItem);
-        if (Gold.CoinInt < Item.itemDB[SelectItem.selectItem].price)
+        if (DataManager.Instance.gameData.gold < Item.itemDB[SelectItem.selectItem].price)
         {
             Debug.Log("구매 실패");
         }
         else
         {
             Debug.Log("구매 완료 : " + SelectItem.selectItem);
-            Gold.CoinInt -= Item.itemDB[SelectItem.selectItem].price;
+            DataManager.Instance.gameData.gold -= Item.itemDB[SelectItem.selectItem].price;
         }
     }
     

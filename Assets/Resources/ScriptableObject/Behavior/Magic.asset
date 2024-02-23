@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 2
   icon: {fileID: 0}
+  englishName: Magic
   name: "\uAE38\uAC70\uB9AC \uB9C8\uC220 \uACF5\uC5F0"
-  cost: 0
+  cost: 153000
   unlockAge: 5

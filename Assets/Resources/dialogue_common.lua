@@ -11,8 +11,13 @@ function MakeSelect(pTalker,pTalkLine,pIllust,pSelects)
     coroutine.yield(selectLine)
     local handler = CS.DialogueSystem.IntInput()
     local inputHandleLine = CS.DialogueSystem.DialogueInputHandleLine(handler)
+    coroutine.yield(inputHandleLine)
     return handler.Value --Property는 :가 아니라 . 으로 접근
 end
 function CreateDialog(func)
     return util.cs_generator(func)
+end
+function GaugeLine(name,value)
+    local gaugeLine = CS.DialogueSystem.LikeGaugeLine(name, value)
+    coroutine.yield(gaugeLine)
 end
