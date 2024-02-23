@@ -6,25 +6,12 @@ using UnityEngine.UI;
 
 public class NotebookController : MonoBehaviour
 {
-    //public Slider healthGaugeBar;
-    //public Slider intellectGaugeBar;
-    //public Slider StrengthGaugeBar;
-    //public Slider MoralityGaugeBar;
-    //public Slider SensibilityGaugeBar;
-    //public Slider ReliabilityGaugeBar;
-    //public Slider StressGaugeBar;
-
-    //public Slider ReliabilityBar;
-    //public Slider SelfEsteemBar;
-    //public Slider MannersBar;
-    //public Slider SociabilityBar;
-    //public Slider ControllabilityBar;
-
-    [SerializeField]
-    public Slider[] sliders;
+    [SerializeField] public Slider[] sliders;
+    [SerializeField] public Text Name;
+    [SerializeField] public Text Age;
     private int index;
 
-    public void SetStatus()
+    public void SetNotebook()
     {
         index = 0;
         foreach(var item in DataManager.Instance.gameData.status)
@@ -32,5 +19,8 @@ public class NotebookController : MonoBehaviour
             sliders[index].value = item.Value;
             index++;
         }
+
+        Name.text = DataManager.Instance.gameData.name;
+        Age.text = DataManager.Instance.gameData.age + "¼¼";
     }
 }

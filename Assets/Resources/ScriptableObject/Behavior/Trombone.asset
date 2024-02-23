@@ -16,5 +16,5 @@ MonoBehaviour:
   icon: {fileID: 0}
   englishName: Trombone
   name: "\uD2B8\uB7FC\uBCF8"
-  cost: 92000
+  cost: -92000
   unlockAge: 12

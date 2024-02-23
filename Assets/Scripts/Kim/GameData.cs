@@ -11,7 +11,7 @@ public class GameData
     public int month;
     public bool gender; //0 = man, 1 = woman
 
-    public int money = 350000;
+    public int gold = 350000;
 
     // ===== player condition =====
     public Dictionary<string, bool> condition = new Dictionary<string, bool>()

@@ -16,5 +16,5 @@ MonoBehaviour:
   icon: {fileID: 0}
   englishName: TeaCeremony
   name: "\uB2E4\uB3C4"
-  cost: 70000
+  cost: -70000
   unlockAge: 0

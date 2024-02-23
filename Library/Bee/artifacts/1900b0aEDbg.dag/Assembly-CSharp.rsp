@@ -363,6 +363,7 @@
 "Assets/Scripts/Kim/DataManager.cs"
 "Assets/Scripts/Kim/DialogLoader.cs"
 "Assets/Scripts/Kim/GameData.cs"
+"Assets/Scripts/Kim/HomeSceneManager.cs"
 "Assets/Scripts/Kim/NotebookController.cs"
 "Assets/Scripts/Kim/PlanerController.cs"
 "Assets/Scripts/Kim/PopupController.cs"

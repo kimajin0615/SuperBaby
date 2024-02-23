@@ -16,5 +16,5 @@ MonoBehaviour:
   icon: {fileID: 0}
   englishName: Cook
   name: "\uC694\uB9AC"
-  cost: 70000
+  cost: -70000
   unlockAge: 8

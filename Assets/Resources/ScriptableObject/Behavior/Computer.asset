@@ -16,5 +16,5 @@ MonoBehaviour:
   icon: {fileID: 0}
   englishName: Computer
   name: "\uCEF4\uD4E8\uD130 \uD65C\uC6A9"
-  cost: 100000
+  cost: -100000
   unlockAge: 15

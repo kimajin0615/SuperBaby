@@ -16,5 +16,5 @@ MonoBehaviour:
   icon: {fileID: 0}
   englishName: Subject
   name: "\uAD50\uACFC \uD559\uC6D0"
-  cost: 100000
+  cost: -100000
   unlockAge: 8

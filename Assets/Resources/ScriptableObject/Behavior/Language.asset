@@ -16,5 +16,5 @@ MonoBehaviour:
   icon: {fileID: 0}
   englishName: Language
   name: "\uC81C2 \uC678\uAD6D\uC5B4"
-  cost: 89000
+  cost: -89000
   unlockAge: 12

@@ -16,5 +16,5 @@ MonoBehaviour:
   icon: {fileID: 0}
   englishName: Su-neung
   name: "\uC218\uB2A5 \uACF5\uBD80"
-  cost: 175000
+  cost: -175000
   unlockAge: 18

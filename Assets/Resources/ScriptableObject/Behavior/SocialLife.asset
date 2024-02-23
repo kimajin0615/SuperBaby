@@ -16,5 +16,5 @@ MonoBehaviour:
   icon: {fileID: 0}
   englishName: SocialLife
   name: "\uC0AC\uD68C\uC0DD\uD65C \uC900\uBE44"
-  cost: 99000
+  cost: -99000
   unlockAge: 19

@@ -16,5 +16,5 @@ MonoBehaviour:
   icon: {fileID: 0}
   englishName: ReadBook
   name: "\uB3C5\uC11C"
-  cost: 40000
+  cost: -40000
   unlockAge: 0

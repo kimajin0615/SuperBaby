@@ -16,5 +16,5 @@ MonoBehaviour:
   icon: {fileID: 0}
   englishName: Exercise
   name: "\uBB34\uC220"
-  cost: 50000
+  cost: -50000
   unlockAge: 0
