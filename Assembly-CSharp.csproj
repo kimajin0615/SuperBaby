@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\Hu\MinigameBtnActive.cs" />
     <Compile Include="Assets\XLua\Gen\EnumWrap.cs" />
     <Compile Include="Assets\XLua\Src\MethodWarpsCache.cs" />
+    <Compile Include="Assets\Scripts\Kim\HomeSceneManager.cs" />
     <Compile Include="Assets\XLua\Gen\DelegatesGensBridge.cs" />
     <Compile Include="Assets\XLua\Gen\System_Collections_Generic_IEnumerator_1_DialogueSystem_IDialogueLine_Bridge.cs" />
     <Compile Include="Assets\Scripts\Hu\SelectItem.cs" />
@@ -117,7 +118,8 @@
     <Compile Include="Assets\Scripts\Hu\minigame.cs" />
     <Compile Include="Assets\Scripts\Scripts\Dialogue\UIUtility.cs" />
     <Compile Include="Assets\XLua\Gen\PackUnpack.cs" />
-    <Compile Include="Assets\Scripts\Kim\HomeSceneManager.cs" />
+    <Compile Include="Assets\Scripts\Kim\TitleSceneManager.cs" />
+    <Compile Include="Assets\Scripts\Kim\IntroSceneManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\XLua\Resources\xlua\util.lua.txt" />

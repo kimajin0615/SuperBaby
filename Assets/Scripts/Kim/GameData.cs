@@ -9,7 +9,7 @@ public class GameData
     public string name;
     public int age;
     public int month;
-    public bool gender; //0 = man, 1 = woman
+    public bool gender; //0 = male, 1 = female
 
     public int gold = 350000;
 
