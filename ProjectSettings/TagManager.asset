@@ -7,6 +7,7 @@ TagManager:
   - eventPop
   - stickyNote
   - ShopObj
+  - SuSu
   layers:
   - Default
   - TransparentFX

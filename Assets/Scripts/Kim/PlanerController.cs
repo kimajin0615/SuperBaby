@@ -1,18 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using System.Threading;
 
 public class PlanerController : MonoBehaviour, IPointerClickHandler
 {
     [SerializeField] private StickyNote[] stickyNotes;
     [SerializeField] private Sprite[] noteSprites;
     [SerializeField] private Text totalMoneyText;
+    [SerializeField] private Button selectButton;
 
     private int totalMoney;
+    private int count;
 
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -57,12 +57,21 @@ public class PlanerController : MonoBehaviour, IPointerClickHandler
         }
     }
 
+
+
     public void SelectButton()
     {
-        if(DataManager.Instance.gameData.gold >= totalMoney)
+        count = 0;
+        for(int i = 0; i < stickyNotes.Length; i++)
+        {
+            if (stickyNotes[i].gameObject.activeSelf == true)
+                count++;
+        }
+
+        if(DataManager.Instance.gameData.gold >= totalMoney && count == stickyNotes.Length)
         {
             DataManager.Instance.gameData.gold -= totalMoney;
-            // 애니메이션 화면으로
+            SceneManager.LoadScene("BehaviorScene");
         }
     }
 
