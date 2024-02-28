@@ -1,15 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class BehaviorSceneManager : MonoBehaviour
 {
     public Text monthText;
     public Text dayText;
     public Animator animator;
-    public AnimationClip testAni;
 
     private int day = 0;
 
@@ -21,10 +17,14 @@ public class BehaviorSceneManager : MonoBehaviour
 
     public void FinishAnimation()
     {
-        if(day < 7)
+        if(day < 14)
         {
             day += 1;
             dayText.text = day + "ÀÏ";
+            if(day == 7)
+            {
+                animator.SetBool("TestBool",true);
+            }
             Debug.Log($"{day}");
         }
         else

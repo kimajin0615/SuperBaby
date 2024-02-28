@@ -1,7 +1,5 @@
 using System.IO;
 using UnityEngine;
-using System;
-using System.Reflection;
 
 public class DataManager : MonoBehaviour
 {

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -11,7 +9,7 @@ public class HomeDialogueController : MonoBehaviour, IPointerClickHandler
     {
         if (eventData.pointerCurrentRaycast.gameObject.tag == "SuSu")
         {
-            //DialogueManager.Instance.RunDialog("Test");
+            DialogueManager.Instance.RunDialog("Test");
         }
     }
 }

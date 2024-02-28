@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using System.Threading;
 
 public class PlanerController : MonoBehaviour, IPointerClickHandler
 {
