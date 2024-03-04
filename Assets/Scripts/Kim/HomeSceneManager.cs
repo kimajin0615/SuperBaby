@@ -16,5 +16,6 @@ public class HomeSceneManager : MonoBehaviour
         MoneyText.text = DataManager.Instance.gameData.gold + "원";
 
         // 달 시작 대화
+        // 나이 체크 후 스탠딩
     }
 }
