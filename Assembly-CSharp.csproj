@@ -100,6 +100,7 @@
     <Compile Include="Assets\XLua\Src\RawObject.cs" />
     <Compile Include="Assets\Scripts\Kim\Event.cs" />
     <Compile Include="Assets\XLua\Src\TemplateEngine\TemplateEngine.cs" />
+    <Compile Include="Assets\Scripts\Yoon\PhoneMove.cs" />
     <Compile Include="Assets\XLua\Gen\XLuaGenAutoRegister.cs" />
     <Compile Include="Assets\Scripts\Kim\DataManager.cs" />
     <Compile Include="Assets\XLua\Src\ObjectPool.cs" />
@@ -115,6 +116,7 @@
     <Compile Include="Assets\Scripts\Scripts\Dialogue\TextButton.cs" />
     <Compile Include="Assets\XLua\Gen\CarBridge.cs" />
     <Compile Include="Assets\XLua\Src\ObjectTranslator.cs" />
+    <Compile Include="Assets\Scripts\Yoon\BackButton.cs" />
     <Compile Include="Assets\Scripts\Scripts\Dialogue\DialogueSystem.cs" />
     <Compile Include="Assets\Scripts\Kim\StickyNote.cs" />
     <Compile Include="Assets\XLua\Src\LuaEnv.cs" />
@@ -127,8 +129,6 @@
     <Compile Include="Assets\Scripts\Hu\minigame.cs" />
     <Compile Include="Assets\Scripts\Scripts\Dialogue\UIUtility.cs" />
     <Compile Include="Assets\XLua\Gen\PackUnpack.cs" />
-    <Compile Include="Assets\Scripts\Yoon\PhoneMove.cs" />
-    <Compile Include="Assets\Scripts\Yoon\BackButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\XLua\Resources\xlua\util.lua.txt" />
