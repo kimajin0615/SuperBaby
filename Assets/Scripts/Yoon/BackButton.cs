@@ -8,7 +8,11 @@ using UnityEngine.UIElements;
 public class BackButton : MonoBehaviour
 {
     public UnityEngine.UI.Button BackButtonUI;
+
+
     public UnityEngine.UI.Button HomeButton;
+    public GameObject ChatButton;
+    public GameObject CalenderButton;
 
 
     public GameObject ChatScreen;
@@ -26,18 +30,33 @@ public class BackButton : MonoBehaviour
     {
         if (ChatScreen.activeSelf)
         {
-            if (ChatList.activeSelf)
+            if (ChatRoom.activeSelf&& !ChatList.activeSelf)
             {
-
+                BackButtonUI.onClick.AddListener(BackToChatList);
             }
 
-            if (ChatRoom.activeSelf)
+            if (ChatList.activeSelf&&!ChatRoom.activeSelf)
             {
-
+                BackButtonUI.onClick.AddListener(HomeButtonClicked);
             }
         }
 
-        if (CalenderScreen.activeSelf)
+        if (CalenderScreen.activeSelf&&!ChatScreen.activeSelf&&!ChatRoom.activeSelf)
+        {
+            BackButtonUI.onClick.AddListener(HomeButtonClicked);
+            
+        }
+
+        void BackToChatList()
+        {
+            ChatList.SetActive(true);
+            ChatScreen.SetActive(true);
+            ChatRoom.SetActive(false);
+            CalenderButton.SetActive(false);
+            ChatButton.SetActive(false);
+        }
+
+        void HomeButtonClicked()
         {
             HomeButton.onClick.Invoke();
         }

@@ -129,6 +129,8 @@
     <Compile Include="Assets\Scripts\Hu\minigame.cs" />
     <Compile Include="Assets\Scripts\Scripts\Dialogue\UIUtility.cs" />
     <Compile Include="Assets\XLua\Gen\PackUnpack.cs" />
+    <Compile Include="Assets\Scripts\Yoon\ChaList.cs" />
+    <Compile Include="Assets\Scripts\Yoon\ChatRoom.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\XLua\Resources\xlua\util.lua.txt" />
