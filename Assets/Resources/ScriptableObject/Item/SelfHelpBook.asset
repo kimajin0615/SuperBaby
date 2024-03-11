@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12c995d6c2448a14784aa22121ac6dcb, type: 3}
+  m_Name: SelfHelpBook
+  m_EditorClassIdentifier: 
+  ItemName: "\uC790\uAE30\uACC4\uBC1C\uC11C"
+  ItemImage: {fileID: 0}
+  ItemInfo: "\"\uD558\uB298\uC740 \uC2A4\uC2A4\uB85C \uB3D5\uB294 \uC790\uB97C \uB3D5\uB294\uB2E4.\""
+  price: 50000
