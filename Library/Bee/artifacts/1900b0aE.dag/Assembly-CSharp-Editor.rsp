@@ -368,6 +368,7 @@
 "Assets/XLua/Src/Editor/Generator.cs"
 "Assets/XLua/Src/Editor/Hotfix.cs"
 "Assets/XLua/Src/Editor/LinkXmlGen/LinkXmlGen.cs"
+"Assets/XLua/Src/Editor/Report.cs"
 "Assets/XLua/Src/Editor/TemplateRef.cs"
 -langversion:9.0
 

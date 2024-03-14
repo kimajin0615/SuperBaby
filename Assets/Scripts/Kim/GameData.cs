@@ -49,4 +49,18 @@ public class GameData
     };
 
     // ===== other data =====
+    public Dictionary<string, int> Items = new Dictionary<string, int>()
+    {
+        //name, count
+        { "닌X도", 0 },
+        { "사탕 모양 장신구", 0 },
+        { "명작 소설 모음집", 0 },
+        { "모델건", 0 },
+        { "밀크티", 0 },
+        { "악력기", 0 },
+        { "자기계발서", 0 },
+        { "최면술 비법서", 0 },
+        { "만화책", 0 },
+        { "이상한 사탕", 0 }
+    };
 }

@@ -9,6 +9,7 @@ public class ShopSystem : MonoBehaviour
     public DataManager dataManager;
     //public GameObject ShopWindow;
     public GameObject ItemData;
+    public HomeSceneManager coin;
     //public Image image;
 
     public Text ItemName;
@@ -27,6 +28,7 @@ public class ShopSystem : MonoBehaviour
         DataManager.Instance.LoadGameData();
 
         Item = ItemData.GetComponent<ItemDatabase>();
+        coin = GameObject.Find("HomeSceneManager").GetComponent<HomeSceneManager>();
 
         ItemName = GameObject.Find("ItemName").GetComponent<Text>();
         infoText = GameObject.Find("infoText").GetComponent<Text>();
@@ -55,8 +57,12 @@ public class ShopSystem : MonoBehaviour
         }
         else
         {
+            coin.MoneyText.text = DataManager.Instance.gameData.gold.ToString();
             Debug.Log("구매 완료 : " + SelectItem.selectItem);
             DataManager.Instance.gameData.gold -= Item.itemDB[SelectItem.selectItem].price;
+            DataManager.Instance.gameData.Items[Item.itemDB[SelectItem.selectItem].ItemName] += 1;
+            Debug.Log("현재 수량 : " + DataManager.Instance.gameData.Items[Item.itemDB[SelectItem.selectItem].ItemName]);
+            //Item.itemDB[SelectItem.selectItem]
         }
     }
     
