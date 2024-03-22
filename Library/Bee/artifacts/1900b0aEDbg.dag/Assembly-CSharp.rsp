@@ -359,7 +359,6 @@
 "Assets/Scripts/Hu/Move.cs"
 "Assets/Scripts/Hu/SelectItem.cs"
 "Assets/Scripts/Hu/ShopBtnActive.cs"
-"Assets/Scripts/Hu/ShopSystem.cs"
 "Assets/Scripts/Hu/ShowCharacter.cs"
 "Assets/Scripts/Hu/ShowWindow.cs"
 "Assets/Scripts/Kim/BehaviorSceneManager.cs"

@@ -15,6 +15,10 @@ public class HomeSceneManager : MonoBehaviour
         MonthText.text = DataManager.Instance.gameData.month + "월";
         MoneyText.text = DataManager.Instance.gameData.gold + "원";
 
+        NameText.text = "슈슈";
+        AgeText.text = "3세";
+        MonthText.text = "4월";
+
         // 달 시작 대화
         // 나이 체크 후 스탠딩
     }

@@ -21,6 +21,6 @@ public class NotebookController : MonoBehaviour
         }
 
         Name.text = DataManager.Instance.gameData.name;
-        Age.text = DataManager.Instance.gameData.age + "¼¼";
+        //Age.text = DataManager.Instance.gameData.age + "¼¼";
     }
 }

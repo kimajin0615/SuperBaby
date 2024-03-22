@@ -1,10 +1,7 @@
 
 
 Test = CreateDialog(function()
-    Talk("","테스트용 문장",null)
-    Talk("","테스트용 문장2",null)
-    GaugeLine("인시아", 10)
-    Talk("","테스트용 문장3",null)
-
-    local select = MakeSelect("미친아진","김수연 루아 시킬까?","TestImage",{"무슨소리! 무조건 시키자","당연히 시킨다"})
+    Talk("슈슈","안녕하세요.","shushuM_3")
+    Talk("슈슈","지금 이건 트레일러인가요?","shushuM_3")
+    Talk("슈슈","...저희 엄마 잘 부탁 드립니다.","shushuM_3")
 end)

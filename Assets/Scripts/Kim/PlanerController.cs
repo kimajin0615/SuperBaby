@@ -13,6 +13,8 @@ public class PlanerController : MonoBehaviour, IPointerClickHandler
     private int totalMoney;
     private int count;
 
+    static public string[] Notes;
+
     public void OnPointerClick(PointerEventData eventData)
     {
         GameObject clickedobject = eventData.pointerCurrentRaycast.gameObject;
@@ -83,5 +85,11 @@ public class PlanerController : MonoBehaviour, IPointerClickHandler
             totalMoney = 0;
             totalMoneyText.text = "¿ø";
         }
+    }
+
+    public static string StickyNoteName(int index)
+    {
+        //Notes[index] = stickyNotes[index].name;
+        return Notes[index];
     }
 }
