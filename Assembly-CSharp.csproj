@@ -79,6 +79,7 @@
     <Compile Include="Assets\XLua\Src\TypeExtensions.cs" />
     <Compile Include="Assets\Scripts\Yoon\Testtest.cs" />
     <Compile Include="Assets\Scripts\Scripts\Dialogue\DialogueTester.cs" />
+    <Compile Include="Assets\Scripts\Yoon\Calender.cs" />
     <Compile Include="Assets\Scripts\Kim\PlanerController.cs" />
     <Compile Include="Assets\Scripts\Hu\ShopBtnActive.cs" />
     <Compile Include="Assets\XLua\Src\CodeEmit.cs" />
@@ -103,6 +104,8 @@
     <Compile Include="Assets\XLua\Gen\XLuaGenAutoRegister.cs" />
     <Compile Include="Assets\Scripts\Kim\DataManager.cs" />
     <Compile Include="Assets\XLua\Src\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\Kim\GameData.cs" />
+    <Compile Include="Assets\Scripts\Yoon\ButtonInBook.cs" />
     <Compile Include="Assets\Scripts\Hu\Mapmanager.cs" />
     <Compile Include="Assets\Scripts\Kim\HomeDialogueController.cs" />
     <Compile Include="Assets\Scripts\Kim\Test.cs" />
@@ -125,6 +128,8 @@
     <Compile Include="Assets\Scripts\Hu\minigame.cs" />
     <Compile Include="Assets\Scripts\Scripts\Dialogue\UIUtility.cs" />
     <Compile Include="Assets\XLua\Gen\PackUnpack.cs" />
+    <Compile Include="Assets\Scripts\Yoon\PhoneMove.cs" />
+    <Compile Include="Assets\Scripts\Yoon\BackButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\XLua\Resources\xlua\util.lua.txt" />

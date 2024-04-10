@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,7 +7,7 @@ public class Calender : MonoBehaviour
 {
     public GameObject Schedule;
     public GameObject Content;
-   
+
 
     public Transform ContentTransform;
     public Transform ScheduleTransform;
@@ -32,12 +32,12 @@ public class Calender : MonoBehaviour
             creating = true;
             UpdateCalendar();
         }
-        
+
     }
 
     void UpdateCalendar()
     {
-        Month.text = month + "¿ù";
+        Month.text = month + "ï¿½ï¿½";
         MonthSchedule();
         CreateObjects();
     }
@@ -90,30 +90,27 @@ public class Calender : MonoBehaviour
     void CreateObjects()
     {
 
-       
-            if (creating)
+
+        if (creating)
+        {
+            foreach (Transform child in Content.transform)
             {
-                foreach (Transform child in Content.transform)
+                for (int i = 0; i < 10; i++)
                 {
-                    for (int i = 0; i < 10; i++)
-                    {
-                        Destroy(child.gameObject);
-                    }
+                    Destroy(child.gameObject);
                 }
-
-                for (int i = 0; i < numberOfObjects; i++)
-                {
-                    GameObject newObject = Instantiate(Schedule, ContentTransform);
-                    newObject.transform.SetParent(ContentTransform);
-                    newObject.transform.SetAsFirstSibling();
-                }
-
-                creating = false;
             }
-       
+
+            for (int i = 0; i < numberOfObjects; i++)
+            {
+                GameObject newObject = Instantiate(Schedule, ContentTransform);
+                newObject.transform.SetParent(ContentTransform);
+                newObject.transform.SetAsFirstSibling();
+            }
+
+            creating = false;
+        }
+
     }
-            
+
 }
-
-   
-

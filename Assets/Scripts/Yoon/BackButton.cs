@@ -22,7 +22,7 @@ public class BackButton : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -30,21 +30,21 @@ public class BackButton : MonoBehaviour
     {
         if (ChatScreen.activeSelf)
         {
-            if (ChatRoom.activeSelf&& !ChatList.activeSelf)
+            if (ChatRoom.activeSelf && !ChatList.activeSelf)
             {
                 BackButtonUI.onClick.AddListener(BackToChatList);
             }
 
-            if (ChatList.activeSelf&&!ChatRoom.activeSelf)
+            if (ChatList.activeSelf && !ChatRoom.activeSelf)
             {
                 BackButtonUI.onClick.AddListener(HomeButtonClicked);
             }
         }
 
-        if (CalenderScreen.activeSelf&&!ChatScreen.activeSelf&&!ChatRoom.activeSelf)
+        if (CalenderScreen.activeSelf && !ChatScreen.activeSelf && !ChatRoom.activeSelf)
         {
             BackButtonUI.onClick.AddListener(HomeButtonClicked);
-            
+
         }
 
         void BackToChatList()

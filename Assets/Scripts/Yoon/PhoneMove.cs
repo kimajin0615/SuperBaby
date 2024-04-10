@@ -9,13 +9,13 @@ public class PhoneMove : MonoBehaviour
 
     private bool isMoving = false;
     private bool isMovingBack = false;
-   
+
     private Vector3 startPosition;
     private float journeyLength;
     public Button button;
     private float startTime;
 
-   
+
 
     void Start()
     {
@@ -30,8 +30,8 @@ public class PhoneMove : MonoBehaviour
 
     void Update()
     {
-       
-        
+
+
         if (isMoving)
         {
             float distanceCovered = (Time.time - startTime) * moveSpeed;
@@ -42,8 +42,8 @@ public class PhoneMove : MonoBehaviour
             {
                 isMoving = false;
             }
-            
-}
+
+        }
 
         if (isMovingBack)
         {
@@ -59,7 +59,7 @@ public class PhoneMove : MonoBehaviour
 
 
 
-        
+
     }
 
     private void MoveObject()
