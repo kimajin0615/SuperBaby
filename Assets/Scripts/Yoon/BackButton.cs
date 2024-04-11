@@ -41,7 +41,7 @@ public class BackButton : MonoBehaviour
             }
         }
 
-        if (CalenderScreen.activeSelf && !ChatScreen.activeSelf && !ChatRoom.activeSelf)
+        if (CalenderScreen.activeSelf)
         {
             BackButtonUI.onClick.AddListener(HomeButtonClicked);
 
@@ -59,6 +59,8 @@ public class BackButton : MonoBehaviour
         void HomeButtonClicked()
         {
             HomeButton.onClick.Invoke();
+            ChatButton.SetActive(true);
+            CalenderButton.SetActive(true);
         }
     }
 }

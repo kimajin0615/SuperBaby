@@ -388,6 +388,7 @@
 "Assets/Scripts/Yoon/Calender.cs"
 "Assets/Scripts/Yoon/DialogueTest.cs"
 "Assets/Scripts/Yoon/PhoneMove.cs"
+"Assets/Scripts/Yoon/ScheduleItem.cs"
 "Assets/XLua/Gen/CarBridge.cs"
 "Assets/XLua/Gen/DelegatesGensBridge.cs"
 "Assets/XLua/Gen/EnumWrap.cs"
