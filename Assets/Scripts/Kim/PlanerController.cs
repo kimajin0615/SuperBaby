@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class PlanerController : MonoBehaviour, IPointerClickHandler
 {
@@ -9,11 +8,18 @@ public class PlanerController : MonoBehaviour, IPointerClickHandler
     [SerializeField] private Sprite[] noteSprites;
     [SerializeField] private Text totalMoneyText;
     [SerializeField] private Button selectButton;
+    [SerializeField] private GameObject HomeCanvas;
 
     private int totalMoney;
     private int count;
 
-    static public string[] Notes;
+    public string[] Notes;
+    public GameObject canvasManager;
+
+    public void Start()
+    {
+        canvasManager = GameObject.Find("CanvasManager");
+    }
 
     public void OnPointerClick(PointerEventData eventData)
     {
@@ -59,7 +65,6 @@ public class PlanerController : MonoBehaviour, IPointerClickHandler
     }
 
 
-
     public void SelectButton()
     {
         count = 0;
@@ -71,8 +76,16 @@ public class PlanerController : MonoBehaviour, IPointerClickHandler
 
         if(DataManager.Instance.gameData.gold >= totalMoney && count == stickyNotes.Length)
         {
+            Notes = new string[stickyNotes.Length];
+            for(int i = 0; i < stickyNotes.Length; i++)
+            {
+                Notes[i] = stickyNotes[i].name;
+            }
             DataManager.Instance.gameData.gold -= totalMoney;
-            SceneManager.LoadScene("BehaviorScene");
+            //HomeCanvas.SetActive(false);
+            //BehaviorCanvas.SetActive(true);
+            canvasManager.GetComponent<CanvasManager>().BehaviorCanvasOnOff(true);
+            canvasManager.GetComponent<CanvasManager>().AnimatorOnOff(true);
         }
     }
 
@@ -85,11 +98,5 @@ public class PlanerController : MonoBehaviour, IPointerClickHandler
             totalMoney = 0;
             totalMoneyText.text = "¿ø";
         }
-    }
-
-    public static string StickyNoteName(int index)
-    {
-        //Notes[index] = stickyNotes[index].name;
-        return Notes[index];
     }
 }
