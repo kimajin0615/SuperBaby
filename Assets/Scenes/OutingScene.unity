@@ -725,13 +725,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 0
 --- !u!114 &74938208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1754,7 +1747,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &268752482
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1826,7 +1819,6 @@ GameObject:
   - component: {fileID: 291301122}
   - component: {fileID: 291301121}
   - component: {fileID: 291301120}
-  - component: {fileID: 291301123}
   m_Layer: 5
   m_Name: HomeButton
   m_TagString: Untagged
@@ -1898,14 +1890,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 291301123}
+      - m_Target: {fileID: 1327179837}
         m_TargetAssemblyTypeName: MapChanger, Assembly-CSharp
         m_MethodName: ChoiceBtn
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1948,23 +1940,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 291301117}
   m_CullTransparentMesh: 1
---- !u!114 &291301123
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 291301117}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9dc6ae1d915badf43a143ccc3e483b86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  home: {fileID: 1819077374}
-  shop: {fileID: 1718197729}
-  area: {fileID: 430091205}
-  park: {fileID: 1815536922}
-  SelectMap: {fileID: 1819077374}
 --- !u!1 &327425276
 GameObject:
   m_ObjectHideFlags: 0
@@ -2451,13 +2426,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 1
 --- !u!114 &408108640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2617,13 +2585,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 3
 --- !u!114 &409983040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2771,13 +2732,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 6
 --- !u!114 &424288963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2925,13 +2879,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 3
 --- !u!114 &428818655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3110,7 +3057,6 @@ GameObject:
   - component: {fileID: 494421793}
   - component: {fileID: 494421792}
   - component: {fileID: 494421791}
-  - component: {fileID: 494421794}
   m_Layer: 5
   m_Name: ShopButton
   m_TagString: Untagged
@@ -3182,14 +3128,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 494421794}
+      - m_Target: {fileID: 1327179837}
         m_TargetAssemblyTypeName: MapChanger, Assembly-CSharp
         m_MethodName: ChoiceBtn
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3232,23 +3178,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 494421788}
   m_CullTransparentMesh: 1
---- !u!114 &494421794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 494421788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9dc6ae1d915badf43a143ccc3e483b86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  home: {fileID: 1819077374}
-  shop: {fileID: 1718197729}
-  area: {fileID: 430091205}
-  park: {fileID: 1815536922}
-  SelectMap: {fileID: 1718197729}
 --- !u!1 &504572818
 GameObject:
   m_ObjectHideFlags: 0
@@ -3454,13 +3383,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 5
 --- !u!114 &530894538
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3718,13 +3640,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 9
 --- !u!114 &601167737
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4148,13 +4063,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 4
 --- !u!114 &723768064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4509,13 +4417,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 7
 --- !u!114 &779417921
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4778,7 +4679,6 @@ GameObject:
   - component: {fileID: 876508715}
   - component: {fileID: 876508714}
   - component: {fileID: 876508713}
-  - component: {fileID: 876508716}
   m_Layer: 5
   m_Name: ParkButton
   m_TagString: Untagged
@@ -4850,14 +4750,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 876508716}
+      - m_Target: {fileID: 1327179837}
         m_TargetAssemblyTypeName: MapChanger, Assembly-CSharp
         m_MethodName: ChoiceBtn
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4900,23 +4800,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 876508710}
   m_CullTransparentMesh: 1
---- !u!114 &876508716
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 876508710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9dc6ae1d915badf43a143ccc3e483b86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  home: {fileID: 1819077374}
-  shop: {fileID: 1718197729}
-  area: {fileID: 430091205}
-  park: {fileID: 1815536922}
-  SelectMap: {fileID: 1815536922}
 --- !u!1 &884681695
 GameObject:
   m_ObjectHideFlags: 0
@@ -4970,13 +4853,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 4
 --- !u!114 &884681698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5124,13 +5000,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 0
 --- !u!114 &886689074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5629,13 +5498,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 8
 --- !u!114 &975873501
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5863,13 +5725,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 8
 --- !u!114 &978157473
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6017,13 +5872,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 6
 --- !u!114 &986562918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6171,13 +6019,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 9
 --- !u!114 &1009955895
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6325,13 +6166,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 1
 --- !u!114 &1037114454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6529,7 +6363,6 @@ GameObject:
   - component: {fileID: 1089676293}
   - component: {fileID: 1089676292}
   - component: {fileID: 1089676291}
-  - component: {fileID: 1089676294}
   m_Layer: 5
   m_Name: AreaButton
   m_TagString: Untagged
@@ -6601,14 +6434,14 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1089676294}
+      - m_Target: {fileID: 1327179837}
         m_TargetAssemblyTypeName: MapChanger, Assembly-CSharp
         m_MethodName: ChoiceBtn
-        m_Mode: 1
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6651,23 +6484,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1089676288}
   m_CullTransparentMesh: 1
---- !u!114 &1089676294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1089676288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9dc6ae1d915badf43a143ccc3e483b86, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  home: {fileID: 1819077374}
-  shop: {fileID: 1718197729}
-  area: {fileID: 430091205}
-  park: {fileID: 1815536922}
-  SelectMap: {fileID: 430091205}
 --- !u!1 &1105653481
 GameObject:
   m_ObjectHideFlags: 0
@@ -7656,6 +7472,7 @@ GameObject:
   - component: {fileID: 1327179834}
   - component: {fileID: 1327179836}
   - component: {fileID: 1327179835}
+  - component: {fileID: 1327179837}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -7679,6 +7496,7 @@ RectTransform:
   - {fileID: 494421789}
   - {fileID: 1089676289}
   - {fileID: 876508711}
+  - {fileID: 1880595823}
   m_Father: {fileID: 268752482}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7725,6 +7543,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1327179833}
   m_CullTransparentMesh: 1
+--- !u!114 &1327179837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327179833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dc6ae1d915badf43a143ccc3e483b86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  home: {fileID: 1819077374}
+  shop: {fileID: 1718197729}
+  area: {fileID: 430091205}
+  park: {fileID: 1815536922}
+  SelectMap: {fileID: 0}
 --- !u!1 &1338268497
 GameObject:
   m_ObjectHideFlags: 0
@@ -8202,13 +8037,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 0
 --- !u!114 &1422038334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8779,13 +8607,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 2
 --- !u!114 &1574682205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9288,13 +9109,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 0
 --- !u!114 &1632642964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9598,13 +9412,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 5
 --- !u!114 &1681123170
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11226,13 +11033,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 7
 --- !u!114 &1820324616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11402,6 +11202,139 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837588184}
+  m_CullTransparentMesh: 1
+--- !u!1 &1880595822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1880595823}
+  - component: {fileID: 1880595826}
+  - component: {fileID: 1880595825}
+  - component: {fileID: 1880595824}
+  m_Layer: 5
+  m_Name: Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1880595823
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880595822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1327179834}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -13, y: -384}
+  m_SizeDelta: {x: 182.8755, y: 81.8509}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1880595824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880595822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1880595825}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1327179837}
+        m_TargetAssemblyTypeName: MapChanger, Assembly-CSharp
+        m_MethodName: MoveMap
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1880595825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880595822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1880595826
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880595822}
   m_CullTransparentMesh: 1
 --- !u!1 &1913080687
 GameObject:
@@ -11626,13 +11559,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5a599a6fa552d4bad68fcbd70cfcde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dataManager: {fileID: 0}
-  ItemData: {fileID: 2041908009}
-  coin: {fileID: 0}
-  ItemName: {fileID: 0}
-  infoText: {fileID: 0}
-  efxInfo: {fileID: 0}
-  ItemIndex: 2
 --- !u!114 &1939541599
 MonoBehaviour:
   m_ObjectHideFlags: 0

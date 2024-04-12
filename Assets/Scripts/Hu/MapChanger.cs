@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class MapChanger : MonoBehaviour
 {
-
     public GameObject home;
     public GameObject shop;
     public GameObject area;
@@ -27,45 +26,38 @@ public class MapChanger : MonoBehaviour
     {
         
     }
-    public void ChoiceBtn()
+    public void ChoiceBtn(int index)
     {
-        if(SelectMap == home)
+        if(index == 1)
         {
-            home.SetActive(true);
-            shop.SetActive(false);
-            area.SetActive(false);
-            park.SetActive(false);
+            SelectMap = home;
             Debug.Log("집");
-            mapChoiceWindow.SetActive(false);
         }
-        if (SelectMap == shop)
+        if (index == 2)
         {
-            home.SetActive(false);
-            shop.SetActive(true);
-            area.SetActive(false);
-            park.SetActive(false);
+            SelectMap = shop;
             Debug.Log("상점");
-            mapChoiceWindow.SetActive(false);
         }
-        if (SelectMap == area)
+        if (index == 3)
         {
-            home.SetActive(false);
-            shop.SetActive(false);
-            area.SetActive(true);
-            park.SetActive(false);
+            SelectMap = area;
             Debug.Log("주택가");
-            mapChoiceWindow.SetActive(false);
         }
-        if (SelectMap == park)
+        if (index == 4)
         {
-            home.SetActive(false);
-            shop.SetActive(false);
-            area.SetActive(false);
-            park.SetActive(true);
+            SelectMap = area;
             Debug.Log("공원");
-            mapChoiceWindow.SetActive(false);
         }
 
         
+    }
+    public void MoveMap()
+    {
+        home.SetActive(false);
+        shop.SetActive(false);
+        area.SetActive(false);
+        park.SetActive(false);
+        SelectMap.SetActive(true);
+        mapChoiceWindow.SetActive(false);
     }
 }
