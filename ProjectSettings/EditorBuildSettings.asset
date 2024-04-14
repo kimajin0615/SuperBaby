@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BehaviorScene.unity
     guid: ddf6efae89086764abcbbc0d91442577
+  - enabled: 1
+    path: Assets/Scripts/Yoon/TalkScene.unity
+    guid: 18738063daa36e94ea945ae2c56797c6
   m_configObjects: {}

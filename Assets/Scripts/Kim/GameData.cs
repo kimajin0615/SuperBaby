@@ -7,12 +7,15 @@ public class GameData
     // ===== basic data =====
     public string name;
     public int age;
-    public int month;
     public bool gender; //0 = male, 1 = female
+    public int playerGender; // 0 = male, 1 = female, 2 = secret
 
     public int gold = 350000;
 
-    // ===== player condition =====
+    public int month;
+    public int day = 1;
+
+    // ===== shushu condition =====
     public Dictionary<string, bool> condition = new Dictionary<string, bool>()
     {
         { "보통", true },
@@ -24,7 +27,7 @@ public class GameData
         { "질병", false },
     };
 
-    // ===== player status =====
+    // ===== shushu status =====
     public Dictionary<string, int> status = new Dictionary<string, int>()
     {
         { "스트레스", Math.Clamp(10, 0, 999)},

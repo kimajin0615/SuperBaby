@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< Updated upstream
-- path: Assets/Scenes/OutingScene.unity
-=======
-- path: Assets/Scenes/HomeScene.unity
->>>>>>> Stashed changes
+- path: Assets/Scripts/Yoon/TalkScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
