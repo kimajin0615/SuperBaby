@@ -4,7 +4,13 @@ using UnityEngine;
 
 public class DialogueTest : MonoBehaviour
 {
-    public string date;
+    public static string date;
+
+    public static void SetDate(string m_date)
+    {
+        date = m_date;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
