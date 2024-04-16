@@ -7712,6 +7712,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23f1875e3b8b96147a11e2c7ad00c759, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  home: {fileID: 1819077374}
+  shop: {fileID: 1718197729}
+  area: {fileID: 430091205}
+  park: {fileID: 1815536922}
+  SelectMap: {fileID: 0}
 --- !u!1 &1338268497
 GameObject:
   m_ObjectHideFlags: 0

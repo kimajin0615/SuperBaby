@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-
 public class ShopSystem : MonoBehaviour
 {
     public DataManager dataManager;
@@ -19,9 +18,6 @@ public class ShopSystem : MonoBehaviour
     private ItemDatabase Item;
 
     public int ItemIndex;
-    
-
-    
 
     void Start()
     {
@@ -65,5 +61,4 @@ public class ShopSystem : MonoBehaviour
             //Item.itemDB[SelectItem.selectItem]
         }
     }
-    
 }
