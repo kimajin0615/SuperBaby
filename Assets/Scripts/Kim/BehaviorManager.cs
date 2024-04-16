@@ -46,9 +46,10 @@ public class BehaviorManager : MonoBehaviour
             Debug.Log($"{day} : {animationName}");
 
             animator.SetTrigger(animationName);
+            // 성공 실패 나누기
             animator.Play(animationName + "_S");
 
-            foreach(var date in Date.eventDates)
+            foreach(var date in Date.eventDates) // 그냥 딕셔너리로 해도 된거같긴한데 그거 너무 보기가 안좋달까... 잘 안들어온달까...흠.. 그래도 그걸쓰는게 효율이 좋으려남능람;ㄴㅏ 멀라 걍 해
             {
                 if(date.Key == DataManager.Instance.gameData.age + "/" + DataManager.Instance.gameData.month + "/" + day)
                 {
@@ -66,7 +67,6 @@ public class BehaviorManager : MonoBehaviour
                     break;
                 }
             }
-
             day += 1;
         }
         else
