@@ -82,7 +82,7 @@ namespace DialogueSystem
 
 
 
-
+    //=============================================
     //Lua에서 C# 스크립트 속 변수 값 바꾸기
     public class LikeGaugeLine : IDialogueLine
     {
@@ -104,6 +104,28 @@ namespace DialogueSystem
             pMachine.Output.DoPrint(pMachine.NextLine);
         }
     }
+
+    public class GetPlayerGender : IDialogueLine
+    {
+        public void OnExecute(DialogueMachine pMachine)
+        {
+        }
+    }
+
+    public class GetShushuName : IDialogueLine
+    {
+        public void OnExecute(DialogueMachine pMachine)
+        {
+        }
+    }
+
+    public class GetShushuGender : IDialogueLine
+    {
+        public void OnExecute(DialogueMachine pMachine)
+        {
+        }
+    }
+
     //=============================================
 
 
