@@ -133,39 +133,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 43
-        y: 27
+        y: 24
         width: 614
-        height: 27
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 12, y: 9, z: 11, w: 11}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: dae5b220c12fb0241b383de13210d969
       internalID: 183416259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: setting_bar_1
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 72
-        width: 10
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4330601b00b0b6478eb1c5088ed97f8
-      internalID: -1374680993
       vertices: []
       indices: 
       edges: []
@@ -182,6 +161,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       setting_bar_0: 183416259
+      setting_bar_2: -1559479614
       setting_bar_1: -1374680993
   spritePackingTag: 
   pSDRemoveMatte: 0
